@@ -7,7 +7,7 @@ The plugins are used to extend the adminer login screen.
 
 ```sh
 docker build -t autoadminer .
-docker run -p 8080:8080 -e PASSWORD=1234 -e DATABASE=test -e DB_DRIVER=sqlite  autoadminer
+docker run -p 8080:8080 -e PASSWORD=1234 -e DATABASE=test -e DB_DRIVER=sqlite autoadminer
 ```
 
 ## login-password-less plugin
